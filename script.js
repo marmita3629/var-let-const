@@ -14,5 +14,3 @@ console.log("Cada salgado custa R$" + precoSalgado)
 console.log("Agora restam " + salgados + " salgados.");
 console.log("A cantina vendeu R$" + totalVendido);
 
-
-
