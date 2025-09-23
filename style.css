@@ -9,15 +9,15 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f9; /* Um fundo mais suave */
-  color: #333;
-  line-height: 1.6;
+  color: #585858;
+  line-height: 4;
   text-align: center;
   padding: 20px;
 }
 
 /* Estilo do título */
 h1 {
-  color: #2a9d8f; /* Verde mais suave */
+  color: #242424; /* Verde mais suave */
   margin-bottom: 20px;
   font-size: 2.5rem;
   font-weight: bold;
@@ -32,10 +32,10 @@ p {
 
 /* Caixa para mostrar os resultados */
 .resultados {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
+  background-color: #cdcdcd;
+  border: 1px solid #000000;
   padding: 15px;
-  margin-top: 30px;
+  margin-top: 100px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 600px;
@@ -46,20 +46,4 @@ p {
 .resultados p {
   font-size: 1.2rem;
   color: #333;
-}
-
-/* Estilo do botão (caso queira adicionar um no futuro) */
-button {
-  padding: 10px 20px;
-  background-color: #2a9d8f;
-  border: none;
-  color: white;
-  font-size: 1.1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #264e52;
 }
